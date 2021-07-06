@@ -17,7 +17,7 @@ def name_score(name):
     return result
 
 
-with open("p022_names.txt", "r") as names_file:
+with open("../p022_names.txt", "r") as names_file:
     names = names_file.readline()
 
 names = [name[1:-1] for name in names.split(",")]
